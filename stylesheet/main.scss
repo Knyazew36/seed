@@ -1,0 +1,48 @@
+.test {
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+  opacity: 0.7;
+  img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+.img-video {
+  height: 500px;
+}
+
+.video-play {
+  &:hover {
+    transition: all 0.6 ease;
+    transform: translate(-50%, -55%);
+  }
+}
+
+.section-about {
+  padding-bottom: 100px;
+}
+
+.tf-banner .title-banner {
+  margin-bottom: 42px;
+  padding: 0 10px 0 10px;
+  line-height: 100%;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+}
+
+.heading-history {
+  margin: 0;
+}
+.our-news {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+
+  &__last {
+    grid-column: span 2;
+  }
+}

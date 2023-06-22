@@ -64,7 +64,7 @@
   -ms-touch-action: pan-Y;
 }
 .owl-carousel .owl-stage:after {
-  content: ".";
+  content: '.';
   display: block;
   clear: both;
   visibility: hidden;
@@ -116,8 +116,7 @@
 .owl-carousel .owl-item img {
   /* display: inline-block; */
   /*width: 100%;*/
-   -webkit-transform-style: preserve-3d; 
-
+  -webkit-transform-style: preserve-3d;
 }
 .owl-carousel.owl-text-select-on .owl-item {
   -webkit-user-select: auto;
@@ -175,7 +174,7 @@
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url("owl.video.play.png") no-repeat;
+  background: url('owl.video.play.png') no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -222,82 +221,81 @@
 }
 
 .owl-theme .owl-dots .owl-dot {
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
 }
 .owl-theme .owl-dots .owl-dot span {
-    width: 6px;
-    height: 6px;
-    background-color: #eeeeee;
-    border-radius: 50%;
-    margin: 4px;   
-    display: none;
-    -webkit-backface-visibility: visible;
-    -webkit-transition: opacity 200ms ease;
-    -moz-transition: opacity 200ms ease;
-    -ms-transition: opacity 200ms ease;
-    -o-transition: opacity 200ms ease;
+  width: 6px;
+  height: 6px;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  margin: 4px;
+  display: none;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #eab702;
-    
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #eab702;
 }
 
 /* Styling Next and Prev buttons */
- .owl-theme .owl-controls .owl-nav div {
-
-	top: 37%;
-	height:70px;
-	background-color:  #3e483c ;
-	border-radius: 35px;
-	width: 70px;
-	padding: 16px 0 0 0;
-	color: rgb(255, 0, 0);
-	font-weight: bold;
-	transition: 0.6s ease;
+.owl-theme .owl-controls .owl-nav div {
+  top: 37%;
+  height: 70px;
+  background-color: #3e483c;
+  border-radius: 35px;
+  width: 70px;
+  padding: 16px 0 0 0;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  transition: 0.6s ease;
   text-align: center;
   display: inline-block;
   outline: 0;
   text-align: center;
   line-height: 40px;
   color: #fff;
-    font-size: 0; 
-    -webkit-transition: all 0.3s ease-in-out;
-       -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-         -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;     
+  font-size: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .owl-theme .owl-controls .owl-nav div:hover {
-  background: #e6d54f;
+  background: #fab900;
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-prev {
-    position: absolute;
-    left: -5px;   
+  position: absolute;
+  left: -5px;
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:before,
 .owl-theme .owl-controls .owl-nav div.owl-next:before {
-    font-family: FontAwesome;    
-    font-size: 14px;
-    color: #fff; 
-    -webkit-transition: all 0.3s ease-in-out;
-       -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-         -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-}  
+  font-family: FontAwesome;
+  font-size: 14px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:before {
-   content: "\f104"; 
+  content: '\f104';
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:hover:before,
-.owl-theme .owl-controls .owl-nav div.owl-next:hover:before {    
-    color: #000;
+.owl-theme .owl-controls .owl-nav div.owl-next:hover:before {
+  color: #000;
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-next {
@@ -305,6 +303,6 @@
   right: -5px;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-next:before {    
-    content: "\f105";    
-}  
+.owl-theme .owl-controls .owl-nav div.owl-next:before {
+  content: '\f105';
+}
