@@ -90,16 +90,26 @@ body {
 .header {
   position: relative;
   height: 850px;
+  z-index: 5;
 
   &__top {
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 5;
+    z-index: 4;
+
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+      z-index: 5;
+    }
 
     &::before {
+      z-index: 0;
       content: '';
       width: 100%;
       height: 65%;
@@ -109,8 +119,6 @@ body {
       left: 0;
       transform: translateY(-100%);
       transition: all .5s cubic-bezier(0.47, 0, 0.745, 0.715);
-
-
     }
 
     &-active {
@@ -119,6 +127,11 @@ body {
       }
     }
 
+  }
+
+  &__col {
+    display: flex;
+    align-items: center;
   }
 
   &__bottom {
@@ -133,13 +146,14 @@ body {
 
 }
 
-.header-wrap {
-  display: flex;
-  align-items: center;
+.navigation {
+  margin-left: 40px;
+
+  &__list {
+    display: flex;
+    align-items: center;
+  }
 }
-
-
-// utils
 
 
 .relative {

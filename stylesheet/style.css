@@ -2037,7 +2037,7 @@ h3 {
   right: 15px;
   width: 26px;
   height: 16px;
-  z-index: 100;
+  z-index: 9999;
   -webkit-transition: all ease 0.238s;
   -moz-transition: all ease 0.238s;
   transition: all ease 0.238s;
