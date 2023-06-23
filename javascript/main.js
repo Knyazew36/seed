@@ -12,6 +12,14 @@
  * removePreloader
  */
 
+// import Parallax from './parallax.min'
+
+// var scene = document.getElementById('scene');
+// var parallaxInstance = new Parallax(scene);
+
+
+
+
 (function ($) {
   'use strict';
 
@@ -139,31 +147,30 @@
   };
 
   var headerFixed_s1 = function () {
-    var nav = $('.header-wrap');
-    if (nav.length > 0) {
-      $(window).on('load', function () {
-        var header = $('.header-wrap');
-        var offsetTop = $('.header-wrap').offset().top;
-        var headerHeight = $('.header-wrap').height();
-        var buffer = $('<div>', { height: headerHeight }).insertAfter(header);
-        buffer.hide();
-
-        $(window).on('load scroll', function () {
-          if ($(window).scrollTop() > offsetTop) {
-            $('.header-wrap').addClass('is-fixed');
-            buffer.show();
-          } else {
-            $('.header-wrap').removeClass('is-fixed');
-            buffer.hide();
-          }
-          if ($(window).scrollTop() > 300) {
-            $('.header-wrap').addClass('is-small');
-          } else {
-            $('.header-wrap').removeClass('is-small');
-          }
-        });
-      }); // headerFixed style1
-    }
+    // var nav = $('.header-wrap');
+    // if (nav.length > 0) {
+    //   $(window).on('load', function () {
+    //     var header = $('.header-wrap');
+    //     var offsetTop = $('.header-wrap').offset().top;
+    //     var headerHeight = $('.header-wrap').height();
+    //     var buffer = $('<div>', { height: headerHeight }).insertAfter(header);
+    //     buffer.hide();
+    //     $(window).on('load scroll', function () {
+    //       if ($(window).scrollTop() > offsetTop) {
+    //         $('.header-wrap').addClass('is-fixed');
+    //         buffer.show();
+    //       } else {
+    //         $('.header-wrap').removeClass('is-fixed');
+    //         buffer.hide();
+    //       }
+    //       if ($(window).scrollTop() > 300) {
+    //         $('.header-wrap').addClass('is-small');
+    //       } else {
+    //         $('.header-wrap').removeClass('is-small');
+    //       }
+    //     });
+    //   }); // headerFixed style1
+    // }
   };
 
   var flatCounter = function () {
@@ -432,9 +439,9 @@
   };
   // Dom Ready
   $(function () {
-    if (matchMedia('only screen and (min-width: 991px)').matches) {
-      headerFixed_s1();
-    }
+    // if (matchMedia('only screen and (min-width: 991px)').matches) {
+    //   headerFixed_s1();
+    // }
     $(window).on('load resize', function () {
       flatSlider();
     });
