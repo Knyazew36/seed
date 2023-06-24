@@ -26,14 +26,17 @@
   <link rel="stylesheet" type="text/css" href="stylesheet/animate.css" />
 
   <!--  Favicon and touch icons  -->
-  <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" />
-  <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed" />
-  <link href="icon/favicon.png" rel="shortcut icon" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
   <!--  carousel -->
   <link rel="stylesheet" type="text/css" href="stylesheet/owl.carousel.min.css" />
   <!--AOS-->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  
   <!--Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,11 +46,9 @@
 
 
   <!-- test -->
-
-
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -60,34 +61,29 @@
   </div>
 
   <header class="header">
-    <div class="container">
       <div class="header__inner">
-        <div class="header__top">
-          <div class="header__top-inner">
-            <div class="header__col">
+        <div class="header__col">
               <a href="#" class="header__logo">
-                <img src="./images/logo.png" alt="">
+                <div class="header__logo-inner">
+                  <img src="./images/logo.png" alt="logo">
+                </div>
               </a>
               <nav class="navigation">
                 <ul class="navigation__list">
-                  <li class="navigation__item">Раз</li>
-                  <li class="navigation__item">2</li>
-                  <li class="navigation__item">3</li>
-                  <li class="navigation__item">4</li>
+                  <li class="navigation__item"><a class="navigation__link">Каталог</a></li>
+                  <li class="navigation__item"><a class="navigation__link">Портфолио</a></li>
+                  <li class="navigation__item"><a class="navigation__link">Галерея</a></li>
+                  <li class="navigation__item"><a class="navigation__link">Контакты</a></li>
                 </ul>
               </nav>
-            </div>
-            <div class="header__col">
+        </div>
+        <div class="header__col">
               <div class="header__connection">
                 <p class="header__phone">Связаться с нами</p>
+                <img src="./images/seed/phone.svg" class="header__phone-img" alt="phone">
               </div>
             </div>
-          </div>
-
         </div>
-        <div class="header__bottom"></div>
-      </div>
-    </div>
   </header>
 
 
@@ -211,7 +207,7 @@
   <!-- </div> -->
   <!-- <div class="header__line"></div> -->
   <!-- </div> -->
-  <div class="header__bottom">
+  <section class="header__bottom">
     <div class="rev_slider_wrapper header__bottom">
       <div id="rev-slider1" class="rev_slider">
         <ul>
@@ -280,7 +276,7 @@
               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
               data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="400" data-splitin="none"
               data-splitout="none" data-responsive_offset="on">
-              <span class="slide-tittle">
+              <span class="slide-tittle slider__slide-title">
                 Контроль на всех этапах.</span>
             </div>
 
@@ -323,23 +319,25 @@
         </ul>
       </div>
     </div>
-  </div>
-
+  </section>
+<!-- 
   </div>
   </div>
   </header>
-  <!-- /header -->
+  /header -->
 
   <section class="section-about" data-aos="fade-up">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12">
           <div class="tf-about center">
-            <h1 class="title-about wow fadeInUp">
+            <h2 class="about__title">
               Компания "Big Grain" — это надежный партнер на рынке экспорта
               сельскохозяйственной продукции.
-            </h1>
-            <img src="images/home/01.png" alt="image" class="img-about" />
+            </h2>
+            <div class="about__img">
+              <img src="images/home/01.png" alt="image" class="img-about about-img" />
+            </div>
             <!-- 
             <p class="inner-title-about">About Us Our History.</p> -->
             <!-- <p class="text-about">
@@ -364,14 +362,13 @@
       </div>
     </div>
   </section>
-
   <section class="section-banner parallax1">
     <div class="overlay-banner"></div>
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12">
           <div class="tf-banner center wow fadeInUp">
-            <img src="images/home/15.png" alt="image" class="" />
+            <img src="images/seed/logo-yelow.png" alt="image" class="logo-yelow" />
             <div data-depth="0.2" class="title-banner">
               Установление долгосрочных партнерских отношений с
               сельхозпроизводителями в России и странах СНГ является важной
@@ -439,82 +436,43 @@
         </div>
       </div>
     </section> -->
-  <section class="section-history">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-6">
-          <div class="tf-img-history">
-            <img src="./images/seed/about.JPG" alt="" />
-            <!-- <img
-                src="images/home/history-1.png"
-                alt=""
-                class="img-1-history"
-              />
-              <img
-                src="images/home/history-2.png"
-                alt=""
-                class="img-2-history"
-              />
-              <img
-                src="images/home/history-3.png"
-                alt=""
-                class="img-3-history"
-              /> -->
-          </div>
-        </div>
 
-        <div class="col-md-6 col-sm-6">
-          <div class="heading-history tf-heading wow fadeInUp">
-            <!-- <p class="subtitle-history">Fresh Vegetables.</p> -->
-            <h1 class="title-history">
-              Основными направлениями нашей деятельности являются продажа:
-            </h1>
-            <!-- <p class="text-history">
-                Praesent sit amet rutrum orci. Fusce mattis facilisis ante sit
-                amet commodo. Cras fermentum risus nisl, a molestie mauris
-                interdum ac. Etiam sed dignissi diam. Cras condimentum maximus a
-                eget dui.
-              </p> -->
-          </div>
-          <ul class="history-box" data-aos="fade-up">
-            <li class="icon-tf">
-              <img src="images/home/99.png" alt="" class="" />
-              <p class="title-icon">МАСЛИЧНОЙ И МЕЛКОСЕМЯННОЙ КУЛЬТУРЫ</p>
-            </li>
-            <li class="icon-tf icon-mon">
-              <img src="images/home/97.png" alt="" class="" />
-              <p class="title-icon">ЗЕРНОБОБОВОЙ И БОБОВОЙ КУЛЬТУРЫ,</p>
-            </li>
-          </ul>
-          <ul class="history-box wow fadeInUp">
-            <li class="icon-tf">
-              <img src="images/home/98.png" alt="" class="" />
-              <p class="title-icon">КРУП</p>
-            </li>
-            <li class="icon-tf icon-mon">
-              <img src="images/home/96.png" alt="" class="" />
-              <p class="title-icon">ЗЕРНОВЫХ КУЛЬТУР.</p>
-            </li>
-          </ul>
-
-          <div class="button-history">
-            <a class="gain-button button-color color2" href="service-dtail.html">Смотреть нашу продукцию</a>
-          </div>
+<section class="direction mt-section" data-aos="fade-up">
+  <div class="container">
+    <div class="direction__inner">
+      <div class="direction__left">
+        <div class="direction__img">
+              <img src="./images/seed/about.JPG" alt="" />
         </div>
       </div>
-    </div>
-  </section>
-
-  <section data-aos="fade-up" class="section-service">
-    <div class="container">
-      <div class="row">
-        <div class="heading-service center">
-          <h1 class="title-service wow fadeInUp">
-            Приглашаем вас ознакомиться с предложением нашей компании для
-            дальнейшего сотрудничества!
-          </h1>
-          <img src="images/home/03.png" alt="" class="img-service" />
+      <div class="direction__right">
+        <div class="direction__decor">
+          <img src="./images/background/history.png" alt="decor">
         </div>
+        <h2 class="direction__title">
+         Основными направлениями нашей деятельности являются продажа:
+        </h2>
+
+        <ul class="direction__list">
+          <li data-aos="fade-right">МАСЛИЧНОЙ И МЕЛКОСЕМЯННОЙ КУЛЬТУРЫ</li>
+          <li data-aos="fade-right">ЗЕРНОБОБОВОЙ И БОБОВОЙ КУЛЬТУРЫ,</li>
+          <li data-aos="fade-right">КРУП,</li>
+          <li data-aos="fade-right">ЗЕРНОБОБОВОЙ И БОБОВОЙ КУЛЬТУРЫ,</li>
+          <li data-aos="fade-right">ЗЕРНОВЫХ КУЛЬТУР.</li>
+        </ul>
+        <a class="direction__button gain-button button-color color2" data-aos="fade-up" href="service-dtail.html">Смотреть нашу продукцию</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="service mt-section" data-aos="fade-up">
+  <div class="container">
+    <div class="service__inner">
+      <h2 class="service__title">Приглашаем вас ознакомиться с предложением нашей компании для дальнейшего сотрудничества!</h2>
+      <div class="service__box">
         <div class="col-md-3 col-sm-6">
           <div class="box-service" data-aos="fade-up">
             <img src="images/home/service-1.png" alt="" class="" />
@@ -574,17 +532,32 @@
               <p class="subtext-service">
                 There are many variations of passages.
               </p>
-              <a href="service.html" class="icon-right"><i class="fa fa-angle-right" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
+        <!-- <a href="service.html" class="icon-right"><i class="fa fa-angle-right service__button" aria-hidden="true"></i> -->
+    </div>
+  </div>
+</section>
+
+  <!-- <section data-aos="fade-up" class="section-service mt-section">
+    <div class="container">
+      <div class="row">
+        <div class="heading-service center">
+          <h1 class="title-service wow fadeInUp">
+            Приглашаем вас ознакомиться с предложением нашей компании для
+            дальнейшего сотрудничества!
+          </h1>
+          <img src="images/home/03.png" alt="" class="img-service" />
+        </div>
+
+      </div>
       <div class="button-service center wow fadeInUp">
-        <a class="gain-button" href="service.html">Смотреть нашу продукцию</a>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- <section data-aos="fade-up" class="section-portfolio">
       <div class="container">
@@ -740,7 +713,7 @@
       <div class="row">
         <div class="col-md-12 col-sm-12">
           <div class="tf-banner center wow fadeInUp">
-            <img src="images/home/15.png" alt="image" class="" />
+            <img src="images/seed/logo-yelow.png" alt="image" class="logo-yelow" />
             <div class="title-banner">
               Качество, сервис и надежность — это основные факторы, которым
               «Big Grain» придает особое значение!
@@ -863,7 +836,25 @@
       </div>
     </section> -->
 
-  <section data-aos="fade-up" class="section-our-news m-section">
+
+  <section class="qualities mt-section">
+    <div class="container">
+      <div class="qualities__inner">
+        <div class="qualities__card">
+          <div class="qualities__img"></div>
+          <div class="qualities__box">
+              <h3 class="qualities__title">Сервис - еще одна важная составляющая бизнеса.</h3>
+                <p class="qualitities__text">Стремление соблюдать договоренности и сроки, а также предоставлять выгодные цены, свидетельствует о превосходном сервисе. Коммуникация, оперативность и профессионализм взаимодействия с клиентами являются факторами, которые делают нашу компанию успешной.</p>
+          </div>
+        
+          <div class="qualities__button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section data-aos="fade-up" class="section-our-news mt-section">
     <div class="container">
       <div class="row">
         <!-- <div class="heading-our-news center">
@@ -893,16 +884,15 @@
                 взаимодействия с клиентами являются факторами, которые делают
                 нашу компанию успешной.
               </p>
-              <span class="list-icon-news">
+              <!-- <span class="list-icon-news">
                 <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i>
                 </a>
                 <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>
                 </a>
                 <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
                 </a>
-              </span>
-              <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right" aria-hidden="true"></i>
-              </a>
+              </span> -->
+         
             </div>
           </div>
 
@@ -974,6 +964,11 @@
       </div>
     </div>
   </section>
+
+
+
+
+
 
   <section data-aos="fade-up" class="section-instagram">
     <div class="container-fluid">
@@ -1052,7 +1047,7 @@
   </section>
 
   <!-- footer -->
-  <footer id="footer">
+  <!-- <footer id="footer">
     <div class="footer-widgets">
       <div class="container-fluid">
         <div class="row">
@@ -1138,18 +1133,36 @@
       </div>
     </div>
   </footer>
-  <!-- /#footer -->
+ -->
 
-  <div class="footer-bottom">
+  <footer class="footer" data-aos="fade-up">
+      <div class="footer__inner">
+        <div class="footer__col">
+          <img src="./images/seed/logo-1-new.png" class="footer__logo" alt="logo">
+          <p class="footer__text">© 2023 "Big Grain"</p>
+        </div>
+        <div class="footer__col"></div>
+        <div class="footer__col footer__links">
+          <p class="footer__link" data-aos="fade-left"> <span>Адрес:</span>&nbsp;&nbsp; Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="footer__link"  data-aos="fade-left"> <span>Телефон:</span>&nbsp;&nbsp; Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="footer__link"  data-aos="fade-left"> <span>Время работы:</span>&nbsp;&nbsp; Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+  <div class="footer-bottom" >
     <div class="container">
       <div class="footer-bottom__inner">
         <p class="footer-bottom__text"> Оставьте заявку и наш менеджер перезвонит вам!</p>
-        <div class="button-footer" data-aos="fade-up">
-          <a class="gain-button" href="contact.html">Оставить заявку</a>
+        <div class="button-footer">
+          <a class="gain-button" data-aos="fade-left" href="contact.html">Оставить заявку</a>
         </div>
       </div>
     </div>
   </div>
+  </footer>
+
+
+  <!-- /#footer -->
+
   <!-- <div class="row">
         <div class="col-md-6">
           <div class="title-footer-bottom">
@@ -1164,9 +1177,26 @@
           </div>
         </div>
       </div> -->
+
+
+  <div class="my-modal">
+    <div class="overlay"></div>
+    <div class="my-modal__inner">
+      <button type="button my-modal__close" class="btn-close">
+        <span class="icon-cross"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <h3 class="my-modal__title">Оставить заявку</h3>
+      <form action="#" class="my-modal__form">
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Фамилия">
+        <input type="number" placeholder="Телефонный номер">
+        <textarea name="comment" id="1"  placeholder="Комментарий"></textarea>
+         <button class="submit my-modal__button">Отправить</button>
+      </form>
+    </div>
   </div>
-  </div>
-  <!-- /.footer-bottom -->
+
 
   <div class="button-go-top">
     <a href="#" title="" class="go-top">
@@ -1211,7 +1241,7 @@
   <script src="rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
   <script src="rev-slider/js/extensions/revolution.extension.video.min.js"></script>
   <!-- <script src="./javascript/parallax.min.js"></script> -->
-  <script src="./javascript/index.js"></script>
+  <script type="module" src="./javascript/index.js"></script>
 </body>
 
 </html>

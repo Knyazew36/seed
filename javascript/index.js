@@ -1,12 +1,12 @@
 AOS.init();
 
-
+import './modal.js';
 window.addEventListener('scroll', () => {
-  let scrollPosition = document.documentElement.scrollTop
-  const header = document.querySelector('.header__top')
+  let scrollPosition = document.documentElement.scrollTop;
+  const header = document.querySelector('.header');
   if (scrollPosition > 0) {
-    header.classList.add('header__top-active')
+    header.classList.add('--active');
   } else {
-    header.classList.remove('header__top-active')
+    header.classList.remove('--active');
   }
-})
+});

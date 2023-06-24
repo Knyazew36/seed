@@ -44,7 +44,7 @@
   margin: 0px 0px 0px 0;
 }
 .style-5 {
-  color: #fab900;
+  color: #e6d54f;
 }
 .style-5::before {
   content: '\f105';
@@ -54,7 +54,7 @@
   color: #838580;
 }
 .heading-title-content a:hover {
-  color: #fab900;
+  color: #e6d54f;
 }
 
 /* about */
@@ -88,7 +88,7 @@
 .testimonials-box-style .title-testimonials {
   padding-bottom: 20px;
   margin: 0 200px 10px 200px;
-  border-bottom: 1px solid #fab900;
+  border-bottom: 1px solid #e6d54f;
   color: #fff;
 }
 .testimonials-box-style .title-designer-01 {
@@ -96,7 +96,7 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fab900;
+  color: #e6d54f;
 }
 .testimonials-box-style .title-designer-02 {
   line-height: 32px;
@@ -152,7 +152,7 @@
 }
 .section-testimonials-style .navPre-slider:hover:before,
 .section-testimonials-style .navNext-slider:hover:before {
-  background-color: #fab900;
+  background-color: #e6d54f;
   color: #000;
 }
 
@@ -342,7 +342,7 @@
   display: flex;
 }
 .box-detail .detail-2 .fa:hover {
-  color: #fab900;
+  color: #e6d54f;
 }
 
 /* Blog */
@@ -581,7 +581,7 @@
   margin-top: 100px;
 }
 .submit {
-  background-color: #fab900 !important;
+  background-color: #e6d54f !important;
   color: #000 !important;
 }
 .submit:hover {
@@ -746,8 +746,8 @@
   line-height: 29px;
 }
 .color-yellow {
-  color: #fab900;
-  border: 3px solid #fab900;
+  color: #e6d54f;
+  border: 3px solid #e6d54f;
   margin-left: 20px;
 }
 .tf-box-counter {
@@ -779,7 +779,7 @@
 }
 /* portfolio detail */
 .post-wrap .post-blog-02 .inner-post-portfolio {
-  background-color: #fab900;
+  background-color: #e6d54f;
   color: #000;
   padding: 6% 30px 9% 50px;
   margin-bottom: 43px;
@@ -801,7 +801,7 @@
 
 /* gain-button */
 .gain-button {
-  background-color: #fab900;
+  background-color: #e6d54f;
   color: #435a52;
   font-family: Manrope, sans-serif;
   font-weight: 400;
@@ -862,7 +862,7 @@
 }
 
 .gain-button.button-color:hover {
-  background: #fab900;
+  background: #e6d54f;
   color: #435a52;
 }
 
@@ -880,7 +880,7 @@
 }
 
 .gain-button.button-color.color2:hover {
-  background: #fab900;
+  background: #e6d54f;
   color: #435a52;
 }
 
@@ -1008,7 +1008,7 @@
 
 .slider2 .tp-title span {
   font-weight: 600 !important;
-  color: #fab900;
+  color: #e6d54f;
   text-transform: uppercase;
   letter-spacing: 9.2px !important;
 }
@@ -1047,7 +1047,7 @@
   color: #435a52;
 }
 .tf-box-icon h3:hover {
-  color: #fab900;
+  color: #e6d54f;
 }
 .tf-box-icon .tf-text-icon {
   padding-right: 20px;
@@ -1133,7 +1133,7 @@
   color: #fff;
 }
 .box-portfolio2 .title-32 a:hover {
-  color: #fab900;
+  color: #e6d54f;
 }
 
 /* team */
@@ -1169,7 +1169,7 @@
   margin-right: -1px;
 }
 .heading-team2 .subtitle-team2 {
-  color: #fab900;
+  color: #e6d54f;
 }
 
 /* section testimonials */

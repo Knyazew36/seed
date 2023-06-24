@@ -1,0 +1,18 @@
+.service {
+  background-color: #f7f0ea;
+  padding: 110px 0;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  &__box {
+    margin-top: 40px;
+  }
+}
