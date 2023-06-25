@@ -13,8 +13,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
   close.addEventListener('click', () => {
     modal.classList.remove('my-modal_active');
+    document.querySelector('body').classList.remove('--hidden');
   });
   overlay.addEventListener('click', () => {
     modal.classList.remove('my-modal_active');
+    document.querySelector('body').classList.remove('--hidden');
   });
 });
