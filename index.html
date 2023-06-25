@@ -31,6 +31,10 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
   <!--  carousel -->
   <link rel="stylesheet" type="text/css" href="stylesheet/owl.carousel.min.css" />
   <!--AOS-->
@@ -211,7 +215,7 @@
     <div class="rev_slider_wrapper header__bottom">
       <div id="rev-slider1" class="rev_slider">
         <ul>
-          <li data-transition="random">
+          <!-- <li data-transition="random">
             <img src="images/seed/slide-1.jpg" alt="" data-bgposition="center center" data-no-retina />
             <div class="bg-slider-1"></div>
 
@@ -225,10 +229,10 @@
               data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="400" data-splitin="none"
               data-splitout="none" data-responsive_offset="on">
               <span class="slide-tittle">
-                Добро пожаловать в "BIG GRAIN"</span>
+              "BIG GRAIN"</span>
             </div>
 
-          </li>
+          </li> -->
           <li data-transition="random">
             <img src="images/seed/slide-2.jpg" alt="" data-bgposition="center center" data-no-retina />
             <div class="bg-slider-1"></div>
@@ -326,7 +330,26 @@
   </header>
   /header -->
 
-  <section class="section-about" data-aos="fade-up">
+<section class="section-about" data-aos="fade-up">
+  <div class="container">
+    <div class="section-about__inner">
+      <h2 class="section-about__title">Компания "Big Grain" — это надежный партнер на рынке экспорта сельскохозяйственной продукции. </h2>
+      <div class="section-about__video">
+        <video id="video" src="./video/video-1.mp4"></video>
+        <button class="section-about__button">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" />
+                </svg>
+        </и>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- <section class="section-about" data-aos="fade-up">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12">
@@ -346,22 +369,18 @@
               interdum ac. Etiam sed dignissim diam. Cras nec est ut tortor
               condimentum maximus a eget dui.
             </p> -->
-            <div class="img-video">
+            <!-- <div class="img-video">
               <img src="images/seed/video.JPG" alt="image" class="" />
               <a href="https://www.youtube.com/watch?v=vOzExn8atds" class="video-play popup-youtube">
                 <i class="bi bi-play"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" />
-                </svg>
+
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> --> -->
   <section class="section-banner parallax1">
     <div class="overlay-banner"></div>
     <div class="container">
@@ -442,24 +461,27 @@
     <div class="direction__inner">
       <div class="direction__left">
         <div class="direction__img">
-              <img src="./images/seed/about.JPG" alt="" />
+              <img src="./images/seed/about.JPG" class="direction__img_1" alt="" />
+              <!-- <img src="./images/seed/about.JPG" class="direction__img_2" alt="" />
+              <img src="./images/seed/about.JPG" class="direction__img_3" alt="" /> -->
         </div>
       </div>
       <div class="direction__right">
         <div class="direction__decor">
           <img src="./images/background/history.png" alt="decor">
         </div>
+        <div class="direction__row">
         <h2 class="direction__title">
          Основными направлениями нашей деятельности являются продажа:
         </h2>
-
         <ul class="direction__list">
           <li data-aos="fade-right">МАСЛИЧНОЙ И МЕЛКОСЕМЯННОЙ КУЛЬТУРЫ</li>
           <li data-aos="fade-right">ЗЕРНОБОБОВОЙ И БОБОВОЙ КУЛЬТУРЫ,</li>
           <li data-aos="fade-right">КРУП,</li>
           <li data-aos="fade-right">ЗЕРНОБОБОВОЙ И БОБОВОЙ КУЛЬТУРЫ,</li>
-          <li data-aos="fade-right">ЗЕРНОВЫХ КУЛЬТУР.</li>
         </ul>
+        </div>
+
         <a class="direction__button gain-button button-color color2" data-aos="fade-up" href="service-dtail.html">Смотреть нашу продукцию</a>
       </div>
     </div>
@@ -475,21 +497,69 @@
       <div class="service__box">
         <div class="col-md-3 col-sm-6">
           <div class="box-service" data-aos="fade-up">
-            <img src="images/home/service-1.png" alt="" class="" />
+            <img src="images/seed/card-1.JPG" alt="" class="service-img" />
             <div class="inner-box-service">
-              <p class="wrap-title bottom20">Farm House</p>
-              <a href="service.html" class="">
-                <h3>Масличные и мелкосемянные культуры</h3>
+              <!-- <p class="wrap-title bottom20">Farm House</p> -->
+              <a href="service.html" class="service__subtitle">
+                <h4>Масличные и мелкосемянные культуры</h4>
               </a>
-              <p class="subtext-service">
+              <!-- <p class="subtext-service">
                 There are many variations of passages.
-              </p>
+              </p> -->
               <a href="service.html" class="icon-right"><i class="fa fa-angle-right" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
+          <div class="box-service" data-aos="fade-up">
+            <img src="images/seed/card-1.JPG" alt="" class="service-img" />
+            <div class="inner-box-service">
+              <!-- <p class="wrap-title bottom20">Farm House</p> -->
+              <a href="service.html" class="service__subtitle">
+                <h4>Масличные и мелкосемянные культуры</h4>
+              </a>
+              <!-- <p class="subtext-service">
+                There are many variations of passages.
+              </p> -->
+              <a href="service.html" class="icon-right"><i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="box-service" data-aos="fade-up">
+            <img src="images/seed/card-1.JPG" alt="" class="service-img" />
+            <div class="inner-box-service">
+              <!-- <p class="wrap-title bottom20">Farm House</p> -->
+              <a href="service.html" class="service__subtitle">
+                <h4>Масличные и мелкосемянные культуры</h4>
+              </a>
+              <!-- <p class="subtext-service">
+                There are many variations of passages.
+              </p> -->
+              <a href="service.html" class="icon-right"><i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="box-service" data-aos="fade-up">
+            <img src="images/seed/card-1.JPG" alt="" class="service-img" />
+            <div class="inner-box-service">
+              <!-- <p class="wrap-title bottom20">Farm House</p> -->
+              <a href="service.html" class="service__subtitle">
+                <h4>Масличные и мелкосемянные культуры</h4>
+              </a>
+              <!-- <p class="subtext-service">
+                There are many variations of passages.
+              </p> -->
+              <a href="service.html" class="icon-right"><i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-3 col-sm-6">
           <div class="box-service active" data-aos="fade-up">
             <img src="images/home/service-2.png" alt="" class="" />
             <div class="inner-box-service">
@@ -535,7 +605,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
         <!-- <a href="service.html" class="icon-right"><i class="fa fa-angle-right service__button" aria-hidden="true"></i> -->
     </div>
@@ -840,30 +910,63 @@
   <section class="qualities mt-section">
     <div class="container">
       <div class="qualities__inner">
-        <div class="qualities__card">
-          <div class="qualities__img"></div>
+        <div class="qualities__card" data-aos="fade-up">
+          <div class="qualities__img">
+            <img src="./images/seed/3-min.JPG" alt="">
+          </div>
+          <div class="qualities__box">
+              <h3 class="qualities__title">           Надежность — это неотъемлемая черта «Big Grain».</h3>
+                <p class="qualities__text">                Зарекомендовав себя, мы укрепили доверие клиентов и
+                сельхозпроизводителей. Способность выполнять свои
+                обязательства и сохранять долгосрочные отношения с партнерами
+                делает нашу компанию приоритетной на рынке
+                сельскохозяйственных продуктов.</p>
+          </div>
+        </div>
+    <div class="qualities__card" data-aos="fade-up">
+          <div class="qualities__img">
+            <img src="./images/seed/3-min.JPG" alt="">
+          </div>
           <div class="qualities__box">
               <h3 class="qualities__title">Сервис - еще одна важная составляющая бизнеса.</h3>
-                <p class="qualitities__text">Стремление соблюдать договоренности и сроки, а также предоставлять выгодные цены, свидетельствует о превосходном сервисе. Коммуникация, оперативность и профессионализм взаимодействия с клиентами являются факторами, которые делают нашу компанию успешной.</p>
+                <p class="qualities__text">Стремление соблюдать договоренности и сроки, а также предоставлять выгодные цены, свидетельствует о превосходном сервисе. Коммуникация, оперативность и профессионализм взаимодействия с клиентами являются факторами, которые делают нашу компанию успешной.</p>
           </div>
-        
-          <div class="qualities__button">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <div class="qualities__card" data-aos="fade-up">
+          <div class="qualities__img">
+            <img src="./images/seed/3-min.JPG" alt="">
+          </div>
+          <div class="qualities__box">
+              <h3 class="qualities__title">     Качество продукции является основным аспектом.</h3>
+                <p class="qualities__text">          Мы стремимся предложить только высококлассный товар своим
+                клиентам. Это помогает создать доверие и установить
+                долгосрочные партнерские отношения.</p>
+          </div>
+        </div>
+        <div class="qualities__card" data-aos="fade-up">
+          <div class="qualities__img">
+            <img src="./images/seed/3-min.JPG" alt="">
+          </div>
+          <div class="qualities__box">
+              <h3 class="qualities__title">     Качество продукции является основным аспектом.</h3>
+                <p class="qualities__text">          Мы стремимся предложить только высококлассный товар своим
+                клиентам. Это помогает создать доверие и установить
+                долгосрочные партнерские отношения.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section data-aos="fade-up" class="section-our-news mt-section">
+  <!-- <section data-aos="fade-up" class="section-our-news mt-section">
     <div class="container">
       <div class="row">
-        <!-- <div class="heading-our-news center">
+        <div class="heading-our-news center">
           <h1 class="wow fadeInUp">
             Качество, сервис и надежность — это основные принципы, которым
             «Big Grain» придает особое значение!
           </h1>
           <img src="images/home/03.png" alt="" class="img-news-home" />
-        </div> -->
+        </div>
         <div class="our-news">
           <div class="our-news-box style-2">
             <div class="img-news-box">
@@ -884,14 +987,14 @@
                 взаимодействия с клиентами являются факторами, которые делают
                 нашу компанию успешной.
               </p>
-              <!-- <span class="list-icon-news">
+              <span class="list-icon-news">
                 <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i>
                 </a>
                 <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>
                 </a>
                 <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
                 </a>
-              </span> -->
+              </span>
          
             </div>
           </div>
@@ -964,13 +1067,13 @@
       </div>
     </div>
   </section>
+ -->
 
 
 
 
 
-
-  <section data-aos="fade-up" class="section-instagram">
+  <!-- <section data-aos="fade-up" class="section-instagram">
     <div class="container-fluid">
       <div class="row">
         <div class="themesflat-slider" data-margin="2" data-nav="true" data-dots="false" data-item="8" data-item2="5"
@@ -1044,7 +1147,41 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>  -->
+
+<section class="section-swiper mt-section" >
+    <div class="section-swiper__inner">
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="./images/seed/1-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/2-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/3-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/4-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/5-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/6-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/7-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/8-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/9-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/10-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/1-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/2-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/3-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/4-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/5-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/6-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/7-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/8-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/9-min.JPG" alt=""></div>
+    <div class="swiper-slide"><img src="./images/seed/10-min.JPG" alt=""></div>
+
+
+  </div>
+</div>
+  </div>
+</section>
+
+
+
 
   <!-- footer -->
   <!-- <footer id="footer">
@@ -1135,7 +1272,7 @@
   </footer>
  -->
 
-  <footer class="footer" data-aos="fade-up">
+  <footer class="footer" >
       <div class="footer__inner">
         <div class="footer__col">
           <img src="./images/seed/logo-1-new.png" class="footer__logo" alt="logo">
@@ -1206,15 +1343,15 @@
 
   <!-- Javascript -->
   <script src="javascript/jquery.min.js"></script>
-  <script src="javascript/bootstrap.min.js"></script>
+  <!-- <script src="javascript/bootstrap.min.js"></script> -->
   <script src="javascript/jquery.easing.js"></script>
-  <script src="javascript/jquery-countTo.js"></script>
-  <script src="javascript/jquery.cookie.js"></script>
+  <!-- <script src="javascript/jquery-countTo.js"></script> -->
+  <!-- <script src="javascript/jquery.cookie.js"></script> -->
   <script src="javascript/jquery.magnific-popup.min.js"></script>
 
-  <script src="javascript/owl.carousel.min.js"></script>
+  <!-- <script src="javascript/owl.carousel.min.js"></script> -->
 
-  <!-- <script src="javascript/parallax.js"></script> -->
+  <script src="javascript/parallax.js"></script>
   <script src="javascript/main.js"></script>
   <script src="javascript/parallax.js"></script>
 
@@ -1229,7 +1366,7 @@
 
   <!--main AOS-->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <!-- Load Extensions only on Local File Systems ! The following part can be removed on Server for On Demand Loading -->
   <script src="rev-slider/js/extensions/revolution.extension.actions.min.js"></script>
   <script src="rev-slider/js/extensions/revolution.extension.carousel.min.js"></script>
@@ -1240,7 +1377,9 @@
   <script src="rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
   <script src="rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
   <script src="rev-slider/js/extensions/revolution.extension.video.min.js"></script>
-  <!-- <script src="./javascript/parallax.min.js"></script> -->
+
+
+  <script src="./javascript/parallax.min.js"></script>
   <script type="module" src="./javascript/index.js"></script>
 </body>
 

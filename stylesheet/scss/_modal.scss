@@ -1,6 +1,7 @@
 .my-modal {
   opacity: 0;
   pointer-events: none;
+  z-index: 8;
   transition: $transition;
 
   &__inner {
