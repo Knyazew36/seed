@@ -5,7 +5,6 @@
   * Author URI: http://www.themesflat.com
 */
 
-@import url('owl.carousel.css');
 @import url('font-awesome.css');
 @import url('ionicons.css');
 @import url('shortcodes.css');
@@ -13,7 +12,6 @@
 @import url('bootstrap.css');
 @import url('animate.css');
 @import url('responsive.css');
-@import url('magnific-popup.css');
 
 @import '../rev-slider/css/settings.css';
 @import '../rev-slider/css/layers.css';
@@ -39,18 +37,18 @@
 /* Reset
 ------------------------------------------------------------- */
 
-html {
+/* html {
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-}
+} */
 
-body {
+/* body {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-}
+} */
 
 a,
 abbr,
@@ -284,7 +282,7 @@ body {
   color: #798883;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: #435a52;
   -webkit-transition: all 0.3s ease-in-out;
@@ -292,7 +290,7 @@ a {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
+} */
 
 a:hover,
 a:focus {
